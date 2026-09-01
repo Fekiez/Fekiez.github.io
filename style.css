@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+        font-family: "JetBrains Mono", monospace;
+        color: #4B4B4B;
+        background-color: #FBFBFB;
+        line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.display-picture {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #4B4B4B;
+    border-radius: 50%;
+    padding: 5px ;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    color: white;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+/* About Me Section */
+.about {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    text-align: center;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Skills */
+.skill-category h3 {
+    font-weight: bolder;
+}
+
+.skills-list li img {
+    height: 3rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.skills-list li {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    width: 5.5rem;
+    text-align: center;
+}
+
+.skills-list li p {
+    font-size: 0.8rem;
+}
+
+/* Footer */
+footer {
+    background: #4B4B4B;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
