@@ -59,6 +59,7 @@ section {
     color: black;
     padding: 2rem;
     text-align: center;
+    flex: 1;
 }
 
 /* Skills */
